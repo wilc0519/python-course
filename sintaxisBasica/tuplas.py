@@ -1,4 +1,4 @@
-miTupla = ('juan', 'Manuel', 'Pedro', 1, 20.2, True,1, 'Pedro')
+miTupla = ('juan', 'Manuel', 'Pedro', 1, 20.2, True,1, 'Pedro')#Las tuplas son inmutables
 
 print(miTupla)
 print(miTupla.index('Pedro'))
