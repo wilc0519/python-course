@@ -1,11 +1,11 @@
 print('Access verification')
-print('Enter your age:')
-
-user_age = int(input())
+user_age = int(input('Enter your age: '))
 def access_verify(age):
-    if age >= 18:
-        return "Access allowed"
+    if age < 18:
+        return "access not allowed"
+    elif age > 100:
+        return "Age not allowed"
     else:
-        return "Access denied"
-
+        return "Access allowed"
+19
 print(access_verify(user_age))
