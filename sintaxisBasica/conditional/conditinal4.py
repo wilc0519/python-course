@@ -4,7 +4,7 @@ from readline import read_init_file
 salarioPresidente = int(input("Salario del presidente: "))
 print('Salario presidenta: ' +str(salarioPresidente))
 
-salarioDirectivo = int(input("SAlario del directivo: "))
+salarioDirectivo = int(input("Salario del directivo: "))
 print('Salario directivo: ' +str(salarioDirectivo))
 
 salarioJefeArea = int(input("Salario del jefe de area: "))
