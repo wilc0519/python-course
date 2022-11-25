@@ -1,11 +1,11 @@
 class Vehicle():
 
     def __init__(self) -> None:
-        self.__chassis_length = 350
-        self.__chassis_width = 150
-        self.__tires = 4
-        self.__in_motion = False
-        self.__color = "red"
+        self.__chassis_length = 350 #variable solo puede ser usada desde dentro de la clase
+        self.__chassis_width = 150 #variable solo puede ser usada desde dentro de la clase
+        self.__tires = 4 #variable solo puede ser usada desde dentro de la clase
+        self.__in_motion = False #variable solo puede ser usada desde dentro de la clase
+        self.__color = "red" #variable solo puede ser usada desde dentro de la clase
 
     def start_up(self, start_the_vehicle):
         self.__in_motion = start_the_vehicle
