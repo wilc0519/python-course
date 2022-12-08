@@ -1,4 +1,4 @@
-class Vehicle():
+class Car():
 
     def __init__(self) -> None:
         self.__chassis_length = 350
@@ -38,12 +38,12 @@ class Vehicle():
             return False
 
 
-myVehicle = Vehicle()
+myVehicle = Car()
 print(myVehicle.start_up(True))
 print(myVehicle.state())
 
 print("-----------------------Next we create another vehicle------------------------")
 
-myVehicle2 = Vehicle()
+myVehicle2 = Car()
 print(myVehicle2.start_up(False))
 print(myVehicle2.state())

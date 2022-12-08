@@ -1,4 +1,4 @@
-class Vehicle():
+class Car():
 
     def __init__(self) -> None:
         self.__chassis_length = 350 #variable solo puede ser usada desde dentro de la clase
@@ -19,12 +19,12 @@ class Vehicle():
          self.__chassis_width, " cm, and a length of ", self.__chassis_length, " cm." )
         return None
 
-myVehicle = Vehicle()
+myVehicle = Car()
 print(myVehicle.start_up(True))
 print(myVehicle.state())
 
 print("-----------------------Next we create another vehicle------------------------")
 
-myVehicle2 = Vehicle()
+myVehicle2 = Car()
 print(myVehicle2.start_up(False))
 print(myVehicle2.state())
