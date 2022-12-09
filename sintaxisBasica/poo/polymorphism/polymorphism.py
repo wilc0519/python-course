@@ -22,7 +22,7 @@ miMoto.desplazamiento()
 
 miCoche = Coche()
 miCoche.desplazamiento()
-#----------------polymorphysn---------------------------
+#----------------polymorphisn---------------------------
 miCamion = Camion()
 miCamion.desplazamiento()
 
@@ -31,3 +31,6 @@ def desplazamiento(vehiculo):
 
 miVeliculo = Camion()
 desplazamiento(miVeliculo)
+
+num = 13
+print(num.isnumeric())
